@@ -1,8 +1,10 @@
+
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
     font-family: var(--font-monospace);
     font-size: var(--font-size-body);
+    font-family: 'Fira Code', monospace;
 }
 
 main {
@@ -11,6 +13,10 @@ main {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
+    font-family: 'Fira Code', monospace;
+}
+input{
+    font-family: 'Fira Code', monospace;
 }
 
 #traichu {
